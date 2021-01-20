@@ -1,4 +1,4 @@
-// array of questions for user
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -6,7 +6,6 @@ const mdGen = require('./utils/generateMarkdown')
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// array of questions for user
 function promptUser() {
     return inquirer.prompt([
     /* Questions here */
@@ -64,6 +63,6 @@ const data = mdGen(answers);
   }
 }
 
-// function call to initialize program
+
 init();
   
