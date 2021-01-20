@@ -1,6 +1,6 @@
-# Readme Gen
+# Readme
 ## Description
-This app will generate a readme for a user's project after asking them a series of questions about their project
+Readme Generator
 ## Installation
 undefined
 ## Usage
@@ -10,7 +10,7 @@ MIT
 ## Contributing
 undefined
 ## Tests
-You have to go onto your terminal and run 'node index.js'
+run node index.js
 ## Github
 adhamera
 ## Email
